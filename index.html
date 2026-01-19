@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo Rípodas">
+    <meta name="description" content="Proyecto: Portfolio Profesional de Eduardo Rípodas">
+    <link rel="icon" href="./images/portfolio.png" type="image/png">
+    <title>Portfolio profesional | Eduardo Rípodas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/b2d1976776.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Eduardo<span>Rípodas</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="inicio-content">
+                <div class="inicio-text">
+                    <h1>Eduardo Rípodas</h1>
+                    <h2>Programador informático</h2>
+                    <p>He crecido con la tecnología en la mano y siempre me ha fascinado descubrir cómo
+                        funcionan los equipos y sistemas.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/RipDde" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="#contacto" class="button">Contáctame</a>
+                </div>
+                <div class="inicio-image">
+                    <img src="images/foto_personal.JPG" alt="Foto de Eduardo Rípodas">
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion" class="formacion">
+            <h2 class="section-title">Formación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2025 - Actualidad</span>
+                        <h3>Técnico Superior en Administración de Sistemas Informáticos en Red</h3>
+                        <h4><a href="https://www.prometeo-fp.com/">Prometeo The Power Education</a></h4>
+                        <p>Desarrollo de las siguientes competencias:</p>
+                        <ul class="competencias">
+                            <li>Creación y gestión de bases de datos mediante SQL</li>
+                            <li>Mantenimiento y montaje de equipos informáticos</li>
+                            <li>Instalación y configuración de sistemas operativos (Linux y Windows)</li>
+                            <li>Estructuración de contenidos web mediante HTML5 y aplicación de estilos y maquetación
+                                con
+                                CSS3</li>
+                            <li>Uso de entornos cloud (AWS) para despliegue de recursos</li>
+                            <li>Implantación y administración de redes</li>
+                        </ul>
+                        <p>Estas competencias se encuentran en desarrollo a lo largo del ciclo formativo y se refuerzan
+                            mediante prácticas, proyectos y actividades académicas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2015 - 2019</span>
+                        <h3>Técnico Superior en Administración y Finanzas</h3>
+                        <h4><a href="https://www.mariaanasanz.es/">Centro Integrado María Ana Sanz</a></h4>
+                        <p>Tras finalizar las prácticas correspondientes estuve trabajando 2 años en la misma empresa y
+                            forjé habilidades como:</p>
+                        <ul class="competencias">
+                            <li>
+                                La comunicación, al estar en contacto con clientes internacionales</li>
+                            <li>Aprendí a manejar herramientas ofimáticas y de diseño, y software de gestión empresarial
+                            </li>
+                            <li>Desarrollé habilidades organizativas y de planificación en un entorno profesional</li>
+                            <li>Responsabilidad y resolución de incidencias</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contacto">
+            <h2 class="section-title">Contacto</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="button">Enviar mensaje</button>
+            </form>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Eduardo Rípodas. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/RipDde"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

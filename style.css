@@ -204,7 +204,7 @@ section {
 }
 
 .social-links a:hover {
-    background-color: var(--gray-text);
+    background-color: var(--primary-color);
     transform: translateY(-3px);
 }
 

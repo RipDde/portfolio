@@ -319,6 +319,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
     gap: 2rem;
+    justify-content: center;
 }
 
 .projects-card {
